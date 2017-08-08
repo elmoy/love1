@@ -40,7 +40,7 @@ i:after{
   transform:rotate(0deg) translateZ(0);
 }
 /* **************************** */
-b:before{
+.b1:before{
   position:absolute;
   left:152px;
   top:190px;
@@ -53,7 +53,7 @@ b:before{
   border-left:0;
   border-right:0;
 }
-b:after{
+.b1:after{
   position:absolute;
   left:90px;
   top:125px;
@@ -67,10 +67,66 @@ b:after{
   transform:rotate(-59deg) translateZ(0);
 }
 /* ********************* */
-div{
+.div1{
   position:absolute;
   top:119px;
   left:144px;
   height:200px;
   border:6px green solid;
+}
+.i21:before {
+  top: 8px;
+  left: 203px;
+  transform: rotate(3deg) translateZ(0);
+}
+.i21:after{
+  left: 174px;
+  transform: rotate(-45deg) translateZ(0);
+}
+.i22:before{
+  top: 28px;
+  left: 139px;
+  z-index: 1;
+  transform: rotate(-62deg) translateZ(0);
+}
+.i22:after{
+  top: 40px;
+  left: 213px;
+  z-index: 1;
+  transform: rotate(13deg) translateZ(0);
+}
+.div2 {
+  position: absolute;
+  top: 119px;
+  left: 171px;
+  height: 200px;
+  border: 6px green solid;
+  transform: rotate(15deg) translateZ(0);
+}
+.b2:before{
+  position:absolute;
+  left: 176px;
+  top: 141px;
+  content:'';
+  background-color:#00DD00;
+  width:70px;
+  height:100px;
+  border-radius:200px 0 200px  0;
+  border:1px black solid;
+  border-left:0;
+  border-right:0;
+}
+.b2:after{
+  position:absolute;
+  left: 126px;
+  top: 80px;
+  z-index: 1;
+  content:'';
+  background-color:#00DD00;
+  width:70px;
+  height:100px;
+  border-radius:200px 0 200px  0;
+  border:1px black solid;
+  border-left:0;
+  transform:rotate(-59deg) translateZ(0);
 }
